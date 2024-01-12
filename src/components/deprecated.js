@@ -6,7 +6,7 @@ const pxRegexp = /"[^"]+"|'[^']+'|url\([^)]+\)|(\d*\.?\d+)rem/g;
 const remSize = 16 * 0.625 * 1.6 * 0.625; // 10px
 const pxSize = 16;
 
-const mapAttributes = (el) => {
+export const mapAttributes = (el) => {
 
     const { attributes = {}, children = {} } = el;
 

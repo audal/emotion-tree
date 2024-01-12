@@ -149,18 +149,9 @@ const IndexPage = () => (
   <Layout>
     <DeprecatedGlobals />
     <TestDepreciation>
-      <h5>Hello</h5>
+      <h5>Depreciation test component</h5>
     </TestDepreciation>
     <div className={styles.textCenter}>
-      <StaticImage
-        src="../images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      />
       <h1>
         Welcome to <b>Gatsby!</b>
       </h1>
