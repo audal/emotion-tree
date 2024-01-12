@@ -5,7 +5,13 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "camel-case": "^5.0.0",
+    "css": "^3.0.0",
+    "cssjson": "^2.1.3",
+    "cssparser": "^0.9.4",
     "gatsby": "^5.13.1",
+    "gatsby-plugin-emotion": "^8.13.0",
     "gatsby-plugin-image": "^3.13.0",
     "gatsby-plugin-manifest": "^5.13.0",
     "gatsby-plugin-sharp": "^5.13.0",
